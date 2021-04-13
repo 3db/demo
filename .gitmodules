@@ -1,0 +1,3 @@
+[submodule "threedb"]
+	path = threedb
+	url = git@github.com:GuillaumeLeclerc/synthetic-sandbox.git
