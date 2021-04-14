@@ -1,0 +1,12 @@
+base_config: ../base.yaml
+
+controls:
+  - module: "threedb.controls.blender.camera"
+    view_point_x: 1
+    view_point_y: 1
+    view_point_z: 0.2
+    zoom_factor: (3)
+    aperture: 5.
+    focal_length: 100.
+  - module: "custom_controls.sun"
+    elevation: (-0.03490658503988659, 0.2617993877991494)

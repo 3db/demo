@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export PYTHONPATH="$(realpath ./threedb/):$PYTHONPATH"
+export PYTHONPATH="$(realpath ./threedb/):$(realpath .):$PYTHONPATH"
 export PATH="$(realpath ./blender):$PATH"
 
 NUM=$1

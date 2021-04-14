@@ -36,3 +36,12 @@ In this experiment we show how to render objects in arbitrary scenes (described 
 - `./run_master.sh experiments/simple_hdris/ experiments/simple_envs/config.yaml /tmp/simple_envs 5555`
 - `./run_workers.sh 1 ./experiments/simple_envs 5555`
 
+### Write a custom Pre-render Control
+
+Being able to control the camera is nice but for most applications, users are intrested in domain specific parameters. In this experiment we show how to add a new control `SunControl` that is able to change the angle of the sun (i.e. the time of the day).
+
+- `./run_master.sh experiments/demo_sun/ experiments/demo_sun/config.yaml /tmp/demo_sun 5555`
+- `./run_workers.sh 1 ./experiments/demo_sun 5555`
+
+
+
