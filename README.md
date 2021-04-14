@@ -44,4 +44,9 @@ Being able to control the camera is nice but for most applications, users are in
 - `./run_workers.sh 1 ./experiments/demo_sun 5555`
 
 
+### Write a custon Post-Render Control
 
+In this experiment we demonstrate how to add a custom post processing step to the pipeline. We add a corruption control and render with it
+
+- `./run_master.sh experiments/demo_corruptions/ experiments/demo_corruptions/config.yaml /tmp/demo_corruptions 5555`
+- `./run_workers.sh 1 ./experiments/demo_corruptions/ 5555`

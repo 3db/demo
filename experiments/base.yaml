@@ -20,7 +20,7 @@ render_args:
   samples: 16
 policy:
   module: "threedb.policies.random_search"
-  samples: 3
+  samples: 5
 logging:
     logger_modules:
       - "threedb.result_logging.image_logger"
