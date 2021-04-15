@@ -33,7 +33,7 @@ In this experiment, we show how to render the same object in various environment
 
 In this experiment we show how to render objects in arbitrary scenes (described by a `.blend` file).
 
-- `./run_master.sh experiments/simple_hdris/ experiments/simple_envs/config.yaml /tmp/simple_envs 5555`
+- `./run_master.sh experiments/simple_envs/ experiments/simple_envs/config.yaml /tmp/simple_envs 5555`
 - `./run_workers.sh 1 ./experiments/simple_envs 5555`
 
 ### Write a custom Pre-render Control
