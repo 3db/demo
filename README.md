@@ -27,7 +27,7 @@ In this repository we demonstrate `threedb` features through multiple experiment
 In this experiment, we show how to render the same object in various environment modeled by 360deg HDRI backgrounds. We demonstrate a single control: the position of the camera relative to the object.
 
 - `./run_master.sh experiments/simple_hdris/ experiments/simple_hdris/config.yaml /tmp/simple_hdris 5555`
-- `./run_workers.sh 1 ./experiments/simple_hdirs 5555`
+- `./run_workers.sh 1 ./experiments/simple_hdris 5555`
 
 ### Render with arbitrary Blender scene
 
