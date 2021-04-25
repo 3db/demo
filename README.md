@@ -17,6 +17,7 @@ To run an experiment you have to:
 
 1. Start the master process: `./run_master.sh $RESOURCE_FOLDER $CONFIG_FILE $RESULT_FOLDER $PORT`
 1. Start the worker process: `./run_workers.sh $NUM_WORKERS ./experiments/simple_envs 5555 `
+2. Explore the results on the dashboard: `python -m threedb.dashboard $RESULT_FOLDER`
 
 ## Experiments
 
