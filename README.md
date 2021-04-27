@@ -4,12 +4,11 @@ This demo assumes linux operating system and bash shell. Adapt commands if you h
 
 ## Setup
 
-- Make sure you clone this repo with the `--recursive` flag to clone the `threedb` library too
+- Follow the installation instructions for your operating system: https://github.com/3db/installers
+- Activate your conda environment: `conda activate threedb` if you use the default environment name
+- Clone this repository: `git clone https://github.com/3db/demo.git`
+- `cd demo`
 - Download the resources required to run this demo `sh ./download_resources.sh`
-- Create a new conda environment: `conda create -n threedb python=3.7.7`. **Important** The version of python has to match the one of blender. If you follow this tutorial blender bundles python 3.7.7.
-- Activate the newly created environment `conda activate threedb`
-- Install the dependencies `pip install -r ./threedb/requirements.txt`
-- Download and unpack blender: `sh ./setup_blender.sh`. **Important**: Make sure your environment is activated before running this script.
 
 ## Running
 
