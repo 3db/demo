@@ -15,7 +15,7 @@ This demo assumes linux operating system and bash shell. Adapt commands if you h
 To run an experiment you have to:
 
 1. Start the master process: `threedb_master $RESOURCE_FOLDER $CONFIG_FILE $RESULT_FOLDER $PORT`
-1. Start the worker process: `threedb_workers $NUM_WORKERS ./experiments/simple_envs 5555 `
+1. Start the worker process: `threedb_workers $NUM_WORKERS $RESOURCE_FOLDER 5555 `
 2. Explore the results on the dashboard: `python -m threedb.dashboard $RESULT_FOLDER`
 
 ## Experiments
