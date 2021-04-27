@@ -1,6 +1,6 @@
 inference:
   module: 'torchvision.models'
-  label_map: './threedb/resources/imagenet_mapping.json'
+  label_map: './resources/imagenet_mapping.json'
   class: 'resnet18'
   output_shape: [1000]
   normalization:
