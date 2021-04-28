@@ -8,7 +8,7 @@ This demo assumes linux operating system and bash shell. Adapt commands if you h
 - Activate your conda environment: `conda activate threedb` (if you use the default environment name, otherwise change accordingly)
 - Clone this repository: `git clone https://github.com/3db/demo.git`
 - `cd demo`
-- Download the resources required to run this demo `sh ./download_resources.sh`
+- Download the resources required to run this demo `bash ./download_resources.sh`
 
 ## Running
 
